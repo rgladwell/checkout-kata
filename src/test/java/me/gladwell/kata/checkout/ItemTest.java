@@ -1,5 +1,6 @@
-package me.gladwell.itv.kata;
+package me.gladwell.kata.checkout;
 
+import me.gladwell.kata.checkout.Item;
 import nl.jqno.equalsverifier.EqualsVerifier;
 
 import org.junit.Test;

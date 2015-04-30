@@ -1,4 +1,4 @@
-package me.gladwell.itv.kata;
+package me.gladwell.kata.checkout;
 
 import static com.google.common.collect.Maps.newHashMap;
 
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import me.gladwell.itv.kata.PricingRule.Unit;
+import me.gladwell.kata.checkout.PricingRule.Unit;
 
 import com.google.common.base.Function;
 import com.google.common.collect.Ordering;

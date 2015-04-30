@@ -1,13 +1,16 @@
-package me.gladwell.itv.kata;
+package me.gladwell.kata.checkout;
 
 import static com.google.common.collect.Sets.newHashSet;
-import static me.gladwell.itv.kata.IndividualPricingRule.pricingRuleFor;
-import static me.gladwell.itv.kata.MultiItemPricingRule.multiItemPricingRuleFor;
+import static me.gladwell.kata.checkout.IndividualPricingRule.pricingRuleFor;
+import static me.gladwell.kata.checkout.MultiItemPricingRule.multiItemPricingRuleFor;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Set;
 
-import me.gladwell.itv.kata.KataSupermarketCheckout.Transaction;
+import me.gladwell.kata.checkout.Item;
+import me.gladwell.kata.checkout.KataSupermarketCheckout;
+import me.gladwell.kata.checkout.PricingRule;
+import me.gladwell.kata.checkout.KataSupermarketCheckout.Transaction;
 
 import org.junit.Test;
 

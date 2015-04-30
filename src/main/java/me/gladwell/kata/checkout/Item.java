@@ -1,4 +1,4 @@
-package me.gladwell.itv.kata;
+package me.gladwell.kata.checkout;
 
 public final class Item {
 

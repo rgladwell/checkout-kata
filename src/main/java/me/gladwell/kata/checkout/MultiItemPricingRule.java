@@ -1,4 +1,4 @@
-package me.gladwell.itv.kata;
+package me.gladwell.kata.checkout;
 
 @Order(1)
 public final class MultiItemPricingRule implements PricingRule {
